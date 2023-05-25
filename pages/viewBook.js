@@ -1,7 +1,7 @@
 import clearDom from '../utils/clearDom';
 import renderToDOM from '../utils/renderToDom';
 
-const viewBook = (obj) => {
+const viewBook = (obj = {}) => {
   clearDom();
 
   const domString = `
